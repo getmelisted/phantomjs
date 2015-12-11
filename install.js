@@ -358,7 +358,7 @@ function getDownloadUrl() {
     versionSuffix = 'centos_x86_64.zip'
     defaultCdnUrl = eugene1gCdnUrl
   } else if (process.platform === 'linux' && process.arch === 'x64') {
-    return 'https://s3.amazonaws.com/sweetiq-phantomjs/phantomjs.zip';
+    return 'https://s3.amazonaws.com/sweetiq-phantomjs/phantomjs-static.zip';
   } else if (process.platform === 'darwin') {
     versionSuffix = 'macosx.zip'
     defaultCdnUrl = eugene1gCdnUrl
